@@ -8,14 +8,15 @@
 
 #include <LED.h>
 
+// LED-Objekte initialisieren
+LED led1(LED_1);
+LED led2(LED_2);
+LED led14(LED_14);
+
 void setup() {
 }
 
 void loop() {
-  // LED-Objekte initialisieren
-  LED led1(LED_1);
-  LED led2(LED_2);
-  LED led14(LED_14);
   // LEDs mit "schalten"-Funktion anschalten
   led1.schalten(true);
   led2.schalten(true);

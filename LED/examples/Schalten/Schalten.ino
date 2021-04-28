@@ -1,11 +1,12 @@
 #include <LED.h>
 
+// LED-Objekt initialisieren
+LED led(LED_BUILTIN);
+
 void setup() {
 }
 
 void loop() {
-  // LED-Objekt initialisieren
-  LED led(LED_BUILTIN);
   // LED mit "schalten"-Funktion anschalten
   led.schalten(true);
   // Eine Sekunde warten
