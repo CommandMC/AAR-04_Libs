@@ -1,0 +1,2 @@
+getLineValue	KEYWORD2
+Bodensensor	KEYWORD1
