@@ -1,0 +1,8 @@
+Ultraschall	KEYWORD1
+getDistance	KEYWORD2
+getTriggerPin	KEYWORD2
+getEchoPin	KEYWORD2
+tgrL	LITERAL1
+echoL	LITERAL1
+tgrR	LITERAL1
+echoR	LITERAL1
