@@ -1,7 +1,10 @@
 Ultraschall	KEYWORD1
+Taster	KEYWORD1
 getDistance	KEYWORD2
 getTriggerPin	KEYWORD2
 getEchoPin	KEYWORD2
+getAnzahlBetaetigt  KEYWORD2
+resetAnzahlBetaetigt    KEYWORD2
 tgrL	LITERAL1
 echoL	LITERAL1
 tgrR	LITERAL1
