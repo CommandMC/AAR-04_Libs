@@ -25,7 +25,7 @@ float Ultraschall::getDistance() {
     }
   }
   // Zeitdifferenz berechnen, in CM umrechnen und zurückgeben
-  return float((micros() - startTime) / 58);
+  return (micros() - startTime) / 58.00;
 }
 
 int Ultraschall::getTriggerPin() {
